@@ -1,0 +1,494 @@
+RUN	mock.performance	performance	1619778406705	 	3.5.0
+USER	create	START	1619778406807
+USER	create	START	1619778407795
+USER	create	START	1619778408807
+USER	create	START	1619778409792
+USER	create	START	1619778410792
+USER	create	START	1619778411792
+USER	create	START	1619778412810
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778409876	1619778411743	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778408895	1619778411637	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778408894	1619778411874	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778408894	1619778411658	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778410847	1619778412085	OK	 
+USER	create	START	1619778413789
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778411746	1619778413165	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778411655	1619778413328	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778411877	1619778413348	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778413338	1619778413996	KO	mock/PerfGatling.feature:43 status 201
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778413361	1619778414007	KO	mock/PerfGatling.feature:43 status 201
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778411667	1619778413362	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778413377	1619778414020	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778414026
+USER	create	END	1619778414026
+USER	create	END	1619778414026
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778412093	1619778413435	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778413442	1619778414096	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778414101
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778411808	1619778412942	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778413227	1619778413896	OK	 
+USER	create	START	1619778414787
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778412952	1619778414302	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778412874	1619778414160	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778414324	1619778414978	OK	 
+USER	create	START	1619778415790
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778414166	1619778415513	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778413900	1619778414575	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778413816	1619778415323	OK	 
+USER	create	START	1619778416788
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778415529	1619778416188	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778414581	1619778416287	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778415330	1619778416661	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778414984	1619778415671	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778414821	1619778416149	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778416308	1619778416983	OK	 
+USER	create	START	1619778417788
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778415676	1619778417375	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778417386	1619778418244	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778418247
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778416676	1619778417352	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778416154	1619778417491	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778415811	1619778417077	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778416986	1619778417650	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778417652	1619778418558	OK	 
+USER	create	END	1619778418559
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778416193	1619778416956	OK	 
+USER	create	START	1619778418798
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778417497	1619778418354	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778417082	1619778418410	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778416960	1619778418697	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778416806	1619778418103	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778417354	1619778418251	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778418422	1619778419104	OK	 
+USER	create	START	1619778419784
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778418715	1619778419372	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778418105	1619778419479	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778417795	1619778418987	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778418256	1619778419744	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778419759	1619778420405	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778420408
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778419379	1619778420046	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778420050	1619778420735	OK	 
+USER	create	END	1619778420736
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778418360	1619778419044	OK	 
+USER	create	START	1619778420786
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778419492	1619778420143	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778418993	1619778420330	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778419049	1619778420756	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778418829	1619778420071	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778419108	1619778419787	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778420344	1619778421001	OK	 
+USER	create	START	1619778421787
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778419791	1619778421515	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778421531	1619778422361	KO	mock/PerfGatling.feature:77 status 201
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778420074	1619778421439	OK	 
+USER	create	END	1619778422364
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778420773	1619778421431	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778419813	1619778421025	OK	 
+USER	create	START	1619778422786
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778420145	1619778420832	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778421445	1619778422363	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778421432	1619778422364	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778422368	1619778423069	OK	 
+USER	create	END	1619778423070
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778421030	1619778422584	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778420837	1619778422785	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778420805	1619778422115	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778421007	1619778421724	OK	 
+USER	create	START	1619778423797
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778422599	1619778423244	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778422793	1619778423444	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778422121	1619778423567	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778421728	1619778423705	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778423721	1619778424391	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778424393
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778421805	1619778423318	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778422368	1619778423055	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778423449	1619778424112	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778424116	1619778424806	OK	 
+USER	create	END	1619778424808
+USER	create	START	1619778424811
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778423583	1619778424243	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778423323	1619778424668	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778423057	1619778424726	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778422793	1619778424151	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778423249	1619778423926	OK	 
+USER	create	START	1619778425789
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778424742	1619778425398	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778424156	1619778425523	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778425537	1619778426185	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778426188
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778424681	1619778425344	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778423931	1619778425620	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778425637	1619778426297	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778426299
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778423810	1619778425065	OK	 
+USER	create	START	1619778426791
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778425403	1619778426078	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778426082	1619778426840	OK	 
+USER	create	END	1619778426841
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778424247	1619778424923	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778425069	1619778426658	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778424826	1619778426036	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778424927	1619778426842	OK	 
+USER	create	START	1619778427794
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778425348	1619778426260	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778426673	1619778427356	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778426039	1619778427395	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778426858	1619778427518	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778425809	1619778426914	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778426264	1619778427927	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778427937	1619778428624	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778428626
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778427409	1619778428097	OK	 
+USER	create	START	1619778428796
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778427523	1619778428216	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778428219	1619778428900	OK	 
+USER	create	END	1619778428901
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778426918	1619778428289	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778426809	1619778427952	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778428297	1619778428948	OK	 
+USER	create	START	1619778429813
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778427360	1619778428030	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778427956	1619778429344	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778427810	1619778428970	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778428101	1619778428768	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778428034	1619778429954	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778429356	1619778430005	OK	 
+USER	create	START	1619778430793
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778428974	1619778430332	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778428772	1619778430474	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778430491	1619778431175	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778431176
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778429964	1619778430614	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778428953	1619778429633	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778428812	1619778429981	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778430344	1619778430999	OK	 
+USER	create	START	1619778431807
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778430618	1619778431290	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778431291	1619778431964	OK	 
+USER	create	END	1619778431965
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778429637	1619778431345	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778429986	1619778431383	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778429828	1619778431043	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778430009	1619778430684	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778431351	1619778432009	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778431387	1619778432040	OK	 
+USER	create	START	1619778432792
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778430689	1619778432412	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778432427	1619778433067	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778433069
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778431047	1619778432409	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778430809	1619778431932	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778432013	1619778432686	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778432689	1619778433372	OK	 
+USER	create	END	1619778433373
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778431003	1619778431733	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778432421	1619778433095	OK	 
+USER	create	START	1619778433790
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778431935	1619778433302	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778431736	1619778433439	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778432044	1619778432726	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778431822	1619778433107	OK	 
+USER	create	START	1619778434795
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778433314	1619778434013	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778433454	1619778434353	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778432730	1619778434566	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778434585	1619778435239	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778435241
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778433112	1619778434571	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778432802	1619778434000	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778433098	1619778433783	OK	 
+USER	create	START	1619778435797
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778434358	1619778435156	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778435159	1619778435976	OK	 
+USER	create	END	1619778435976
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778434586	1619778435361	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778434005	1619778435610	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778433786	1619778435624	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778433805	1619778435156	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778434016	1619778434951	OK	 
+USER	create	START	1619778436799
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778435624	1619778436387	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778435644	1619778436421	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778435161	1619778436617	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778434954	1619778436627	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778436647	1619778437408	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778437411
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778434813	1619778435979	OK	 
+USER	create	START	1619778437797
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778435364	1619778436179	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778436424	1619778437203	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778437207	1619778437890	OK	 
+USER	create	END	1619778437890
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778436632	1619778437408	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778435982	1619778437431	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778435813	1619778436999	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778436180	1619778437871	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778437447	1619778438111	OK	 
+USER	create	START	1619778438797
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778436391	1619778437083	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778437002	1619778438530	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778437891	1619778438555	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778436814	1619778438089	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778437087	1619778438942	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778438961	1619778439619	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778439621
+USER	create	START	1619778439785
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778437412	1619778438093	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778438546	1619778439202	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778438559	1619778439227	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778439230	1619778439915	OK	 
+USER	create	END	1619778439915
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778438093	1619778439455	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778437813	1619778438909	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778438114	1619778438786	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778438097	1619778439806	OK	 
+USER	create	START	1619778440799
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778439470	1619778440130	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778438912	1619778440253	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778438790	1619778440483	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778440505	1619778441149	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778441150
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778439824	1619778440597	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778438812	1619778440021	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778440268	1619778440934	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778439206	1619778439882	OK	 
+USER	create	START	1619778441788
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778440601	1619778441267	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778441271	1619778441951	OK	 
+USER	create	END	1619778441951
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778440024	1619778441388	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778439885	1619778441620	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778440134	1619778440810	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778439798	1619778441296	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778441392	1619778442051	OK	 
+USER	create	START	1619778442788
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778441639	1619778442306	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778440813	1619778442505	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778442516	1619778443161	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778443162
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778441298	1619778442634	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778440938	1619778441634	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778440814	1619778441977	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778442310	1619778442972	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778442975	1619778443668	OK	 
+USER	create	END	1619778443668
+USER	create	START	1619778443786
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778441638	1619778443299	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778441979	1619778443327	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778443335	1619778443981	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778443983
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778442648	1619778443307	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778441794	1619778442978	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778442054	1619778442725	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778443314	1619778443979	OK	 
+USER	create	START	1619778444786
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778442982	1619778444354	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778442729	1619778444401	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778444419	1619778445295	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778445297
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778443982	1619778444644	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778444647	1619778445333	OK	 
+USER	create	END	1619778445334
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778442803	1619778444023	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778443310	1619778444002	OK	 
+USER	create	START	1619778445786
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778444363	1619778445243	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778444005	1619778445739	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778444026	1619778445604	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778443796	1619778444926	OK	 
+USER	create	START	1619778446790
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778444930	1619778446692	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778446703	1619778447353	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778447355
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778445755	1619778446692	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778445616	1619778446692	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778445246	1619778445920	OK	 
+USER	create	START	1619778447791
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778444801	1619778446453	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778446697	1619778447363	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778447367	1619778448144	OK	 
+USER	create	END	1619778448145
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778445923	1619778447757	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778446456	1619778447834	OK	 
+USER	create	START	1619778448792
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778445800	1619778447440	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778446695	1619778447376	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778447848	1619778448772	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778447771	1619778448772	OK	 
+USER	create	START	1619778449793
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778447444	1619778449178	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778447379	1619778449187	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778449202	1619778450194	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778450196
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778446804	1619778448144	OK	 
+USER	create	START	1619778450809
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778448775	1619778449787	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778449789	1619778450855	OK	 
+USER	create	END	1619778450856
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778449192	1619778450194	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778448148	1619778450194	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778450209	1619778451117	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778451118
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778447805	1619778449232	OK	 
+USER	create	START	1619778451791
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778448775	1619778449787	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778448807	1619778450194	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778449235	1619778451116	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778450199	1619778451858	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778449789	1619778451844	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778451128	1619778451871	OK	 
+USER	create	START	1619778452790
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778450198	1619778451117	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778449806	1619778451312	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778451860	1619778452657	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778451870	1619778452657	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778451120	1619778452875	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778452891	1619778453538	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778453540
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778450823	1619778452028	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778451315	1619778452882	OK	 
+USER	create	START	1619778453785
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778452661	1619778453339	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778453341	1619778454025	OK	 
+USER	create	END	1619778454026
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778451874	1619778452658	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778452032	1619778453560	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778453572	1619778454220	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778454222
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778452899	1619778453570	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778451804	1619778453022	OK	 
+USER	create	START	1619778454786
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778452661	1619778454139	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778452661	1619778453343	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778453025	1619778454368	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778452804	1619778453888	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778453346	1619778454835	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778454849	1619778455493	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778455494
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778454155	1619778454834	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778453573	1619778454245	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778454378	1619778455073	OK	 
+USER	create	START	1619778455798
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778453891	1619778455234	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778454837	1619778455496	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778455499	1619778456192	OK	 
+USER	create	END	1619778456193
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778453797	1619778454964	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778454248	1619778455733	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778455245	1619778455900	OK	 
+USER	create	START	1619778456792
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778454967	1619778456315	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778455747	1619778456400	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778455076	1619778455763	OK	 
+USER	create	START	1619778457791
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778456326	1619778457061	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778456403	1619778457066	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778457069	1619778457898	OK	 
+USER	create	END	1619778457898
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778454800	1619778456337	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778455766	1619778457276	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778455904	1619778456587	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778455813	1619778456840	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778456339	1619778457898	OK	 
+USER	create	START	1619778458792
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778457290	1619778458158	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778456590	1619778458418	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778458432	1619778459080	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778459081
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778456844	1619778458427	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778458439	1619778459088	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778459090
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778457909	1619778458658	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778457064	1619778457898	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778456805	1619778458092	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778458161	1619778458888	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778458891	1619778459574	OK	 
+USER	create	END	1619778459575
+USER	create	START	1619778459802
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778457901	1619778459471	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778458095	1619778459547	OK	 
+USER	create	START	1619778460788
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778457806	1619778459208	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778458661	1619778459346	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778459484	1619778460150	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778459560	1619778460215	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778458809	1619778459976	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778459211	1619778460856	OK	 
+USER	create	START	1619778461789
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778460154	1619778461117	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778459349	1619778461101	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778461119	1619778461814	OK	 
+USER	create	END	1619778461815
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778459979	1619778461561	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778461572	1619778462374	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778462375
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778460869	1619778461579	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778459815	1619778461046	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778461115	1619778461814	OK	 
+USER	create	START	1619778462790
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778460218	1619778461122	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778460802	1619778461863	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778461049	1619778462690	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778461818	1619778462696	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778462697	1619778463460	OK	 
+USER	create	END	1619778463460
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778461125	1619778462912	OK	 
+USER	create	START	1619778463788
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778461581	1619778462389	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778461867	1619778463409	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778463421	1619778464062	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778464063
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778462694	1619778463434	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778462926	1619778463646	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778461803	1619778463203	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778462391	1619778463968	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778463983	1619778464637	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778464638
+USER	create	START	1619778464788
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778463648	1619778464302	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778464306	1619778464984	OK	 
+USER	create	END	1619778464984
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778463206	1619778464548	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778462801	1619778463893	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778463438	1619778464106	OK	 
+USER	create	START	1619778465795
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778463895	1619778465228	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778464561	1619778465212	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778463801	1619778464918	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778464108	1619778465638	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778465240	1619778465891	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778464919	1619778466375	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778465653	1619778466394	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778465215	1619778465895	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778466385	1619778467417	OK	 
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778464801	1619778466060	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778466397	1619778467423	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778467427	1619778468113	OK	 
+USER	create	END	1619778468114
+REQUEST		POST /api/financial-service-provider/v1/clientconfig/	1619778465808	1619778467281	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778465898	1619778468043	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778466082	1619778468099	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778465894	1619778467186	OK	 
+REQUEST		GET /api/settlement-config/v1/institution-settlement-history?limit=200	1619778467284	1619778468631	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778468643	1619778469309	KO	mock/PerfGatling.feature:43 status 201
+USER	create	END	1619778469311
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778468059	1619778468734	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778468113	1619778468783	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778467189	1619778468886	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778468899	1619778469551	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778469552
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778467421	1619778468107	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778468738	1619778469398	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778469400	1619778470646	OK	 
+USER	create	END	1619778470647
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778468110	1619778469807	OK	 
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778469821	1619778470648	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/016a666b-3208-4e3f-87ad-17cdcf3ed0f9	1619778468786	1619778469459	OK	 
+REQUEST		GET /api/settlement-config/v1/all-settled-ranges	1619778469462	1619778471901	OK	 
+REQUEST		PUT /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778470651	1619778471901	OK	 
+REQUEST		DELETE /api/settlement-config/v1/institution-configurations/666a666b-3208-4e3f-87ad-17cdcf3ed0f5	1619778471903	1619778472918	OK	 
+USER	create	END	1619778472919
+REQUEST		POST /api/settlement-config/v1/institution-configurations	1619778471915	1619778472918	KO	mock/PerfGatling.feature:77 status 201
+USER	create	END	1619778472920

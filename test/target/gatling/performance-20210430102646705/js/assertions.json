@@ -1,0 +1,10 @@
+{
+  "simulation": "mock.performance",
+  "simulationId": "performance",
+  "start": 1619778406705,
+  "description": "",
+  "scenarios": ["create"],
+  "assertions": [
+
+  ]
+}
